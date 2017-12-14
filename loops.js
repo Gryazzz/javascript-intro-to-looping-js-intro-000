@@ -15,4 +15,3 @@ function whl(n) {
       console.log(`${n}`); --n};
     return 'done';
 }
-
