@@ -10,14 +10,9 @@ function forLoop(array) {
       return array;
 }
 
-function whileLoop(n) {
-
-  while (n >= -1) {
-    if (n >= 0) {
-    console.log(n--);
-  }
-    else {
-      console.log('done');
-    }
-  }
+function whl(n) {
+    while (n >= 0) {
+      console.log(`${n}`); --n};
+    return 'done';
 }
+
